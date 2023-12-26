@@ -32,7 +32,7 @@ class Home extends StatelessWidget {
                             clipper: GreenPartWidget(w: screenWidth, h: greenHeight),
                             child: Container(
                               width: double.infinity,
-                              height: 500,
+                              height: greenHeight,
                               color: Colors.green,
                             )),
                       ),
